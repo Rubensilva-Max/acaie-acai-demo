@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#790044" />
+  <meta name="description" content="Açaíê — seu momento mais gostoso do dia. Peça combos, monte seu açaí e aproveite nossas promoções." />
+  <title>Açaíê — Seu momento mais gostoso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">Peça pelo WhatsApp e receba seu açaí favorito 💜</div>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Açaíê início"><span class="brand-mark">açaíê</span><span class="brand-dot">.</span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#combos">Combos</a><a href="#promocoes">Promoções</a><a href="#monte">Monte seu açaí</a><a href="#sobre">Sobre</a>
+    </nav>
+    <a class="button button-small header-cta" href="#pedido">Fazer pedido <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow"></div><div class="berry berry-one"></div><div class="berry berry-two"></div>
+      <div class="hero-copy">
+        <span class="eyebrow"><i></i> CREMOSO, GELADINHO E IRRESISTÍVEL</span>
+        <h1>JÁ TOMOU<br><em>SEU AÇAÍ</em><br>HOJE?</h1>
+        <p>Seu momento de felicidade vem em camadas. Escolha seu favorito e aproveite!</p>
+        <a class="button" href="#combos">Descobrir sabores <span>→</span></a>
+        <div class="hero-proof"><span class="proof-stars">★★★★★</span><span>Feito com carinho em cada colherada</span></div>
+      </div>
+      <div class="hero-art">
+        <img src="https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&w=1000&q=88" alt="Tigela de açaí com frutas e granola" />
+        <div class="floating-note"><span>💜</span><div><b>100% felicidade</b><small>em cada camada</small></div></div>
+        <span class="hero-splash splash-a"></span><span class="hero-splash splash-b"></span>
+      </div>
+      <div class="hero-bottom">AÇAÍ • FRUTAS • MOMENTOS FELIZES</div>
+    </section>
+
+    <section class="section combos-section" id="combos">
+      <div class="section-heading"><span class="eyebrow dark-eyebrow">ESCOLHAS QUE DÃO ÁGUA NA BOCA</span><h2>Nossos <em>combos</em></h2><p>Uma combinação perfeita para deixar seu dia mais gostoso.</p></div>
+      <div class="product-grid">
+        <article class="product-card"><div class="product-image image-one"><span class="tag">QUERIDINHO</span><img src="https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&w=700&q=85" alt="Açaí com frutas" /></div><div class="product-info"><div><h3>Combo Clássico</h3><p>Açaí, banana, granola e leite condensado.</p></div><div class="product-bottom"><strong>R$ 19,90</strong><button class="add-button" data-product="Combo Clássico" data-price="19.90">+</button></div></div></article>
+        <article class="product-card"><div class="product-image image-two"><img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=700&q=85" alt="Açaí com morangos" /></div><div class="product-info"><div><h3>Combo Morango</h3><p>Açaí cremoso, morango e creme especial.</p></div><div class="product-bottom"><strong>R$ 22,90</strong><button class="add-button" data-product="Combo Morango" data-price="22.90">+</button></div></div></article>
+        <article class="product-card"><div class="product-image image-three"><span class="tag tag-gold">ESPECIAL</span><img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=700&q=85" alt="Açaí com granola e frutas" /></div><div class="product-info"><div><h3>Combo Energia</h3><p>Açaí, banana, granola, mel e paçoca.</p></div><div class="product-bottom"><strong>R$ 24,90</strong><button class="add-button" data-product="Combo Energia" data-price="24.90">+</button></div></div></article>
+        <article class="product-card"><div class="product-image image-four"><img src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=700&q=85" alt="Sobremesa gelada com frutas" /></div><div class="product-info"><div><h3>Combo Tropical</h3><p>Açaí, manga, morango e leite em pó.</p></div><div class="product-bottom"><strong>R$ 23,90</strong><button class="add-button" data-product="Combo Tropical" data-price="23.90">+</button></div></div></article>
+      </div>
+      <div class="center-action"><a class="button button-outline" href="#pedido">Ver todos os combos <span>→</span></a></div>
+    </section>
+
+    <section class="promo-section" id="promocoes">
+      <div class="promo-heading"><span class="eyebrow">UM MOTIVO A MAIS PRA SORRIR</span><h2>Promoções<br><em>deliciosas</em></h2><p>Seu açaí favorito com aquele precinho especial.</p></div>
+      <article class="promo-card promo-main"><img src="https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&w=850&q=85" alt="Açaí especial com frutas" /><div class="promo-overlay"><span>OFERTA DA SEMANA</span><h3>Seu momento<br>merece um açaí!</h3><p>Combo especial a partir de</p><b>R$ 17,90</b></div></article>
+      <article class="promo-card promo-secondary"><img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=crop&w=850&q=85" alt="Açaí com morango" /><div class="promo-overlay"><span>PARA COMPARTILHAR</span><h3>Dobrou a alegria,<br>dobrou o sabor.</h3><p>Consulte nossos combos para dois.</p></div></article>
+      <div class="promo-aside"><span class="sun-icon">✳</span><h3>HMMMM...<br>NESSE CALOR<br>O QUE MAIS<br>COMBINA?</h3><a class="button button-yellow" href="#pedido">Fazer pedido <span>↗</span></a></div>
+    </section>
+
+    <section class="builder-section" id="monte">
+      <div class="builder-copy"><span class="eyebrow">DO SEU JEITO, DO SEU GOSTO</span><h2>Monte seu<br><em>açaí!</em></h2><p>Quem manda é você. Escolha o tamanho, misture seus acompanhamentos favoritos e crie uma combinação só sua.</p><a class="button button-yellow" href="#montador">Montar agora <span>→</span></a><div class="builder-decoration">açaíê</div></div>
+      <div class="builder-content" id="montador"><div class="builder-title"><span>01</span><div><h3>Escolha seu tamanho</h3><p>Comece pela sua fome de açaí.</p></div></div>
+        <div class="size-options"><button class="size-option active" data-size="300ml" data-price="14.90"><b>300ml</b><small>R$ 14,90</small></button><button class="size-option" data-size="500ml" data-price="19.90"><b>500ml</b><small>R$ 19,90</small></button><button class="size-option" data-size="700ml" data-price="25.90"><b>700ml</b><small>R$ 25,90</small></button></div>
+        <div class="builder-title toppings-title"><span>02</span><div><h3>Escolha os adicionais</h3><p>Selecione até 4 opções inclusas.</p></div></div>
+        <div class="topping-grid">
+          <label class="topping"><input type="checkbox" value="Leite condensado"><span class="topping-emoji">🥛</span><span>Leite condensado</span></label>
+          <label class="topping"><input type="checkbox" value="Leite em pó"><span class="topping-emoji">🥥</span><span>Leite em pó</span></label>
+          <label class="topping"><input type="checkbox" value="Paçoca"><span class="topping-emoji">🥜</span><span>Paçoca</span></label>
+          <label class="topping"><input type="checkbox" value="Morango"><span class="topping-emoji">🍓</span><span>Morango</span></label>
+          <label class="topping"><input type="checkbox" value="Granola"><span class="topping-emoji">🌾</span><span>Granola</span></label>
+          <label class="topping"><input type="checkbox" value="Banana"><span class="topping-emoji">🍌</span><span>Banana</span></label>
+        </div>
+        <div class="builder-total"><div><small>Seu açaí personalizado</small><b id="builder-price">R$ 14,90</b></div><button class="button" id="add-custom">Adicionar ao pedido <span>+</span></button></div>
+      </div>
+    </section>
+
+    <section class="about-section" id="sobre"><div class="about-image"><img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=900&q=85" alt="Açaí preparado com frutas frescas" /></div><div class="about-copy"><span class="eyebrow dark-eyebrow">MAIS QUE AÇAÍ, UM MOMENTO SEU</span><h2>Feito para<br><em>alegrar seu dia.</em></h2><p>Ingredientes selecionados, combinações especiais e muito carinho em cada pedido. Aqui, cada colherada é um convite para aproveitar o melhor do seu dia.</p><div class="about-points"><span>✦ Ingredientes selecionados</span><span>✦ Combinações irresistíveis</span><span>✦ Preparado na hora</span></div></div></section>
+    <section class="order-strip" id="pedido"><div><span class="eyebrow">BATEU A VONTADE?</span><h2>Seu próximo açaí<br>está a um clique.</h2></div><a class="button button-yellow" href="#" id="whatsapp-cta">Pedir pelo WhatsApp <span>↗</span></a><div class="strip-spark">✳</div></section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">açaíê</span><span class="brand-dot">.</span></a><p>Seu momento mais gostoso do dia. 💜</p><span>© 2026 Açaíê — Marca demonstrativa</span></footer>
+  <div class="cart-toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+# Açaíê — site demonstrativo
+
+Site responsivo de demonstração para apresentar a possíveis clientes do ramo de açaí.
+
+## Como visualizar
+Abra `index.html` no navegador ou publique os arquivos em GitHub + Vercel.
+
+## Personalização antes de entregar
+1. Troque o nome Açaíê pelo nome do estabelecimento em `index.html`.
+2. No início de `script.js`, substitua `5500000000000` pelo WhatsApp real, somente números, incluindo 55 e DDD.
+3. Ajuste produtos, preços, textos e fotos.
+4. As fotos desta versão são carregadas por URLs do Unsplash e precisam de internet.
+
+## Arquivos
+- `index.html`: estrutura e conteúdo.
+- `style.css`: identidade visual, animações e responsividade.
+- `script.js`: menu mobile, montador de açaí e pedidos via WhatsApp.
